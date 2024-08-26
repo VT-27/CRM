@@ -1,29 +1,8 @@
-This is an example of basic CRM using Django and MYSQL
-Functionality -
-  1. Login, Logout and User Registration form.
-  2. Add users/records
-  3. Delete users/records
-  4. Update users/records
-  
-Useful Git Commands:
-✔ cd folder
-✔ git init
-✔ git add .
-✔ git commit -m "First commit"
-✔ git remote add origin <link to repository, ending with ".git">
-✔ git remote -v  
-✔ git push --set-upstream origin master
-
-Useful Python Django Commands:
-✔ python3 manage.py runserver // To run the server
-✔ python3 manage.py makemigrations // The makemigrations in django the command is used to create database migration files based on the changes you’ve made to your models
-✔ python3 manage.py migrate // This command creates tables, modifies columns, adds indexes, and performs any other database-related operations needed to reflect the changes you’ve made.
-  
-Django CRM Application
+**Django CRM Application**
 
 This project is a basic Customer Relationship Management (CRM) system built using Django and MySQL. It includes essential features like user authentication (login, logout, and registration), and the ability to manage user records.
 
-Features
+**Features**
 	•	User Authentication:
 	•	Login
 	•	Logout
@@ -33,7 +12,7 @@ Features
 	  •	Delete existing users/records
 	  •	Update user/record information
 
-Prerequisites
+**Prerequisites**
 
 Ensure you have the following installed:
 
@@ -42,16 +21,16 @@ Ensure you have the following installed:
 	•	MySQL
 
  1.	Clone the repository:
-    git clone <repository-url>
-    cd <repository-folder>
+    	• git clone <repository-url>
+    	• cd <repository-folder>
  2.	Setup MySQL Database
-	•	Create a MySQL database.
-	•	Update the settings.py file with your database credentials.
+	• Create a MySQL database.
+	• Update the settings.py file with your database credentials.
 3. Apply Migrations
-  •	python3 manage.py makemigrations
-  •	python3 manage.py migrate
+	• python3 manage.py makemigrations
+  	• python3 manage.py migrate
 4.	Run the development server:.
-  	python3 manage.py runserver
+  	• python3 manage.py runserver
 
 **Useful Python Django Commands**
 
