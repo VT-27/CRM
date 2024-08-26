@@ -34,34 +34,34 @@ Ensure you have the following installed:
 
 **Useful Python Django Commands**
 
-  # Run the development server
+  **1. Run the development server**
   python3 manage.py runserver
 
-  # Create migration files based on model changes
+  **2. Create migration files based on model changes**
   python3 manage.py makemigrations
 
-  # Apply the migrations to the database
+  **3. Apply the migrations to the database**
   python3 manage.py migrate
 
   **Useful Git Commands**
 
-  # Navigate to your project folder
+  **1. Navigate to your project folder**
 cd folder
 
-# Initialize a new Git repository
+**2. Initialize a new Git repository**
 git init
 
-# Add all files to staging
+**3. Add all files to staging**
 git add .
 
-# Commit changes
+**4. Commit changes**
 git commit -m "First commit"
 
-# Add the remote repository
+**5. Add the remote repository**
 git remote add origin <repository-url.git>
 
-# Verify the new remote URL
+**6. Verify the new remote URL**
 git remote -v
 
-# Push changes to the remote repository
+**7. Push changes to the remote repository**
 git push --set-upstream origin master
